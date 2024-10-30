@@ -4,6 +4,21 @@ The RadImageNet dataset are available by request at [https://www.radimagenet.com
 
 This code designed to process the RadImagenet and convert to refined and stratified organization.
 
+You can find the preprint paper here: [Policy Gradient-Driven Noise Mask](https://arxiv.org/abs/2406.14568)
+
+If you use this code in your research, please cite our paper:
+
+```
+@article{yavuz2024policy,
+  title={Policy Gradient-Driven Noise Mask},
+  author={Yavuz, Mehmet Can and Yang, Yang},
+  year={2024},
+  eprint={2406.14568},
+  archivePrefix={arXiv},
+  primaryClass={eess.IV}
+}
+```
+
 ## Performance Comparison of ResNet Models
 
 This table compares the performance of ResNet models pretrained on 2D RadImagenet using regular and Two2Three convolution techniques across various metrics.
